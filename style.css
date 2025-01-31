@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+
+.section1{
+   height: 80vh;
+    background: url(/assets/dome.jpg);
+    background-position: bottom right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+}
+.section1 h2{
+    margin: 50px 0;
+    color: chocolate;
+    font-size: 50px;
+    text-align: center;
+}
+.section1 h1{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 20px;
+    color: black;
+    font-family: "Roboto Mono", serif ;
+
+}
+.section1 h1:hover{
+    color: rgba(255, 38, 0, 0.747);
+    /* transform: rotate(-350deg); */
+}
+.section1 .logo img{
+    width: 250px;
+    height: 150px;
+}
+.section1 .logo img:hover{
+    padding: 20px;
+    transform: scale(1.1);
+}
+.section1 p{
+    
+    margin: 0 auto 0 120px;
+    text-decoration: dotted;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: 40px;
+    width: 75%;
+    font-weight: 600;
+}
+.section2{margin: 20px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    background: whitesmoke;
+    border-bottom: 2px solid orangered;
+    border-right: 2px solid orangered;
+    border-radius: 10px;
+}
+.card img{
+    margin: 20px 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.card p{
+    padding: 20px;
+}
+.card h2{
+    padding: 20px;
+}
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* width: 30%; */
+}
+.section3 img{
+    width: 300px;
+    border-radius: 50px;
+
+}
+.section3 div{
+    background: orangered;
+    border-radius: 50px;
+}
